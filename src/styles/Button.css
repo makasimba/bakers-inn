@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'BoldAvenir';
+    src: url('./../assets/fonts/heavy/Avenir-LT-Std-85-Heavy.otf');
+}
+
+.btn {
+    font-family: 'BoldAvenir';
+    border-radius: 3%;
+    padding: 0.5em 2em;
+    color: white;
+}

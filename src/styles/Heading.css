@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('./../assets/fonts/medium/Avenir-LT-Std-65-Medium.otf');
+}
+
+h1 {
+    font-family: 'Avenir';
+    font-size: 2em;
+    color: #2d0170;
+}
