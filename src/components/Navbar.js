@@ -6,9 +6,10 @@ import Button from './Button';
 
 const Navbar = () => {
     return (
-        <div className='container-fluid'>
 
-            <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-md navbar-light fixed-top">
+
+            <div className="container-fluid">
 
                 <div>
                     <a className="navbar-brand" href="#">
@@ -21,26 +22,30 @@ const Navbar = () => {
                 </button>
 
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto mx-auto">
+
+                    <ul className="navbar-nav align-items-center">
                         <li className="nav-item active">
                             <a className="nav-link" href="#">About Us</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="#">Products</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="#">Recipes</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="#">Kid's Corner</a>
                         </li>
                         <li>
                             <Button color='#b6923d' content='CONTACT US'/>
                         </li>
                     </ul>
+
                 </div>
-            </nav>
-        </div>
+
+            </div>
+
+        </nav>
      );
 }
  

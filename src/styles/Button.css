@@ -1,11 +1,26 @@
+:root {
+    --blue-color: #2d0170;
+    --brown-color: #b6923d;
+}
+
 @font-face {
-    font-family: 'BoldAvenir';
+    font-family: 'Avenir';
     src: url('./../assets/fonts/heavy/Avenir-LT-Std-85-Heavy.otf');
 }
 
 .btn {
-    font-family: 'BoldAvenir';
-    border-radius: 3%;
+    font-family: 'Avenir';
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 2%;
     padding: 0.5em 2em;
     color: white;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    transition: all 0.3s ease-out;
+    transition: 250ms;
+    background-color: var(--blue-color);
+    color: var(--brown-color);
 }

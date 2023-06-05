@@ -1,4 +1,4 @@
-body {
-    ---blue-color: #2d0170;
+:root {
+    --blue-color: #2d0170;
     --brown-color: #b6923d;
 }

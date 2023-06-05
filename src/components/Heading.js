@@ -1,9 +1,9 @@
 import './../styles/Heading.css';
 
-const Heading = ({ content }) => {
+const Heading = ({ content, color }) => {
 
     return ( 
-        <h1>{content}</h1>
+        <h2 style={{ color: color }}>{content}</h2>
      );
 }
  

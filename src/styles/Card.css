@@ -1,0 +1,26 @@
+:root {
+    --blue-color: #2d0170;
+    --brown-color: #b6923d;
+}
+
+.card {
+    width: 20rem;
+}
+
+.card-text {
+    color: var(--blue-color);
+    font-size: 1rem;
+}
+
+h5 {
+    color: var(--blue-color);
+    font-weight: bold;
+}
+
+.blue--border {
+    border: 3px blue solid;
+}
+
+.red--border {
+    border: 3px red solid;
+}

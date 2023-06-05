@@ -1,0 +1,17 @@
+"It all started back in the eighties when Baker's Inn was just a small confectionary company that employed just 40 people and produced around 30 000 loaves of bread
+      a day. We now aim to provide nourishing, convenient, and accessible answer to hunger's call."
+
+<View type="with-image" heading="Book A Factory Tour" imageUrl={imageOfBakers} text="It all started back in the eighties when Baker's Inn was just a small confectionary company that employed just 40 people and produced around 30 000 loaves of bread
+a day. We now aim to provide nourishing, convenient, and accessible answer to hunger's call." buttonLabel="READ MORE"/>
+
+<Header image={loaves} color="white" backgroundColor={"#2d0170"}>
+      <HeroHeader color="white"/>
+      <Info content="The freshest sandwiches you can make are with Baker's Inn soft white loaf" color="white"/>
+      <Button color="brown" content="READ MORE" />
+</Header>
+
+<Card title="Shwarma Sandwich" prepTime="20 min" serves="6 people" picture={shwarma} />
+
+<TallCard title="Family Loaf High Energy Brown" picture={blueLoaf}>
+      <Info content="Our family Loaf High Energy Brown loaves are great source of fibre, high in energy and fortified with vitamins and minerals! They are perfect for sandwiches, toast, breadcrumbs - anything! The Family Loaf has 21 slices." color="#2d0170"/>
+</TallCard>

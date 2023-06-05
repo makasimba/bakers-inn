@@ -1,0 +1,43 @@
+:root {
+    --blue-color: #2d0170;
+    --brown-color: #b6923d;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('./../assets/fonts/medium/Avenir-LT-Std-65-Medium.otf');
+}
+
+footer {
+    background-color: var(--blue-color);
+}
+
+footer p {
+    color: white;
+}
+
+h3 {
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+span {
+    color: var(--brown-color);
+}
+
+.logo--image {
+    width: 65%;
+}
+
+.marketing {
+    overflow-wrap: break-word;
+}
+
+.company-info--section {
+    font-size: 0.8rem;
+}
+
+.social-media--section {
+    border-bottom: 2px solid white;
+}

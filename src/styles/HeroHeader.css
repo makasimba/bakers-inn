@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("./../assets/fonts/heavy/Avenir-LT-Std-85-Heavy.otf")
+}
+
+span {
+    border-bottom: 5px #b6923d solid;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
