@@ -1,0 +1,13 @@
+.sandwich--card .card {
+    width: 18rem;
+}
+
+.sandwich--card .card-text {
+    color: var(--blue-color);
+    font-size: 1rem;
+}
+
+.sandwich--card .card h5 {
+    color: var(--blue-color);
+    font-weight: bold;
+}

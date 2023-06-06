@@ -1,0 +1,15 @@
+.carousel-item {
+    background-color: white;
+}
+
+.carousel-item .row {
+    background-color: white;
+}
+
+.blue--border {
+    border: 3px solid blue;
+}
+
+.red--border {
+    border: 3px red solid;
+}

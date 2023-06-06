@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'AvenirLight';
+    src: url("./../assets/fonts/light/Avenir-LT-Std-35-Light.otf");
+}
+
+.value p {
+    font-family: 'AvenirLight';
+}
+
+.value h5 {
+    font-size: 2rem;
+}
+
+.value {
+    height: 30rem;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+}

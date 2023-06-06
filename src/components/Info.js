@@ -2,7 +2,7 @@ import './../styles/Info.css';
 
 const Info = ({ content, color }) => {
     return (
-            <p style={{color: color }}>{content}</p>
+            <p className="infomation" style={{color: color }}>{content}</p>
      );
 }
  

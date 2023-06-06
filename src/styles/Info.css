@@ -3,7 +3,7 @@
     src: url('./../assets/fonts/light/Avenir-LT-Std-35-Light.otf');
 }
 
-p {
+.information p {
     font-family: 'Avenir';
     max-width: 100%;
     font-size: 0.8rem;

@@ -1,8 +1,3 @@
-:root {
-    --blue-color: #2d0170;
-    --brown-color: #b6923d;
-}
-
 @font-face {
     font-family: 'Avenir';
     src: url('./../assets/fonts/medium/Avenir-LT-Std-65-Medium.otf');
@@ -16,13 +11,13 @@ footer p {
     color: white;
 }
 
-h3 {
+footer h3 {
     font-size: 1rem;
     color: white;
     font-weight: bold;
 }
 
-span {
+footer span {
     color: var(--brown-color);
 }
 

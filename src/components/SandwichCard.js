@@ -1,15 +1,16 @@
 import arrow from './../assets/Images/arrow.png';
-import './../styles/Card.css';
+import './../styles/SandwichCard.css';
 
-const Card = ({ title, prepTime, serves, picture }) => {
-    return ( 
-        <div className="card shadow-lg p-1">
+const SandwichCard = ({ title, prepTime, serves, picture }) => {
+    return (
+        <div className="card sandwich--card mx-1 shadow-lg d-inline-block">
 
             <div className="card-picture">
                 <img src={picture} className="card-img-top " alt=""/>
             </div>
 
             <div className="card-body">
+
                 <h5 className="card-title">{title}</h5>
 
                 <div className="d-flex justify-content-between">
@@ -29,4 +30,4 @@ const Card = ({ title, prepTime, serves, picture }) => {
      );
 }
  
-export default Card;
+export default SandwichCard;

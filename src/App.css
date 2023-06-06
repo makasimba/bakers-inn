@@ -2,3 +2,18 @@
     --blue-color: #2d0170;
     --brown-color: #b6923d;
 }
+
+@font-face {
+    font-family: "AvenirLight";
+    src: url("./assets/fonts/light/Avenir-LT-Std-35-Light.otf");
+}
+
+@font-face {
+    font-family: "AvenirMedium";
+    src: url("./assets/fonts/medium/Avenir-LT-Std-65-Medium.otf");
+}
+
+@font-face {
+    font-family: "AvenirHeavy";
+    src: url("./assets/fonts/heavy/Avenir-LT-Std-85-Heavy.otf")
+}

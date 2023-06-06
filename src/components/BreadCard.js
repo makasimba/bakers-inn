@@ -1,12 +1,12 @@
-import './../styles/TallCard.css';
+import './../styles/BreadCard.css';
 
-const TallCard = ({ children, title, picture }) => {
+const BreadCard = ({ children, title, picture }) => {
 
     const heading = title.split(" ").slice(0, -2).join(" ");
     const subheading = title.split(" ").slice(-2, ).join(" ");
 
-    return ( 
-        <div className="card shadow-lg p-2">
+    return (
+        <div className="card bread-card shadow-lg p-2">
 
             <div className="card-picture">
                 <img src={picture} className="card-img-top img-fluid" alt=""/>
@@ -17,8 +17,9 @@ const TallCard = ({ children, title, picture }) => {
                 <h5 className="card-title">{subheading}</h5>
                 {children}
             </div>
+            
         </div>
      );
 }
  
-export default TallCard;
+export default BreadCard;

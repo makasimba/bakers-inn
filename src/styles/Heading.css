@@ -3,7 +3,7 @@
     src: url('./../assets/fonts/black/Avenir-LT-Std-95-Black.otf');
 }
 
-h2 {
+.heading h2 {
     font-family: 'Avenir';
     font-size: 3.2em;
     font-weight: bold;

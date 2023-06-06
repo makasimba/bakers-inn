@@ -10,8 +10,10 @@ a day. We now aim to provide nourishing, convenient, and accessible answer to hu
       <Button color="brown" content="READ MORE" />
 </Header>
 
-<Card title="Shwarma Sandwich" prepTime="20 min" serves="6 people" picture={shwarma} />
+<SandwichCard title="Shwarma Sandwich" prepTime="20 min" serves="6 people" picture={shwarma} />
 
 <TallCard title="Family Loaf High Energy Brown" picture={blueLoaf}>
       <Info content="Our family Loaf High Energy Brown loaves are great source of fibre, high in energy and fortified with vitamins and minerals! They are perfect for sandwiches, toast, breadcrumbs - anything! The Family Loaf has 21 slices." color="#2d0170"/>
 </TallCard>
+
+<ValueCard heading="Respect" info="We build self-esteem by treating each other fairly, communicating directly and respectfully. We have empathy, discipline and build on our diversity as a source of strength, creativity and innovation." picture={respect} />

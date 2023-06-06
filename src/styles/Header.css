@@ -3,12 +3,7 @@
     src: url("./../assets/fonts/medium/Avenir-LT-Std-65-Medium.otf");
 }
 
-:root {
-    --blue-color: #2d0170;
-    --brown-color: #b6923d;
-}
-
- p {
+ .header p {
     font-size: 1.1rem;
  }
 
