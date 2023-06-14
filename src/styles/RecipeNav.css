@@ -1,0 +1,29 @@
+.recipe-nav-buttons {
+    height: 5rem;
+    border-bottom: 0.15rem solid var(--mild-blue-color);
+}
+
+.recipe-nav-button {
+    color: var(--blue-color);
+}
+
+.recipe-nav button {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: var(--mild-blue-color);
+    border: 0;
+}
+
+.recipe-nav button:hover {
+    color: var(--blue-color);
+    z-index: 99;
+}
+
+.red--border {
+    border: 3px solid red;
+}
+
+.blue--border {
+    border: 3px solid blue;
+}

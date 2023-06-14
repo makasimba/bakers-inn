@@ -1,10 +1,6 @@
-@font-face {
-    font-family: 'Avenir';
-    src: url('./../assets/fonts/medium/Avenir-LT-Std-65-Medium.otf');
-}
-
 footer {
     background-color: var(--blue-color);
+    font-family: "AvenirMedium";
 }
 
 footer p {

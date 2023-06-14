@@ -1,17 +1,21 @@
-@font-face {
-    font-family: 'Avenir';
-    src: url('./../assets/fonts/medium/Avenir-LT-Std-65-Medium.otf')
-}
-
 .nav-item {
     font-size: 1.5rem;
 }
 
-nav li {
-    padding-left: 1.5em;
+.nav-link {
+    color: var(--mild-blue-color);
+    font-family: "AvenirHeavy";
 }
 
-.nav-link {
-    color: var(---blue-color);
-    font-weight: 500;
+.nav-link:hover {
+    color: var(--blue-color);
+}
+
+
+.navbar button {
+    border: 2px solid var(--brown-color) !important;
+}
+
+.navbar button:hover {
+    border: 2px solid var(--brown-color) !important;
 }

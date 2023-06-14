@@ -3,7 +3,7 @@ import './../styles/SandwichCard.css';
 
 const SandwichCard = ({ title, prepTime, serves, picture }) => {
     return (
-        <div className="card sandwich--card mx-1 shadow-lg d-inline-block">
+        <div className="card sandwich--card shadow-md">
 
             <div className="card-picture">
                 <img src={picture} className="card-img-top " alt=""/>

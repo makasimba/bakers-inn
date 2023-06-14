@@ -1,38 +1,24 @@
-@font-face {
-    font-family: "AvenirLight";
-    src: url("./../assets/fonts/light/Avenir-LT-Std-35-Light.otf");
-}
-
-@font-face {
-    font-family: "AvenirMedium";
-    src: url("./../assets/fonts/medium/Avenir-LT-Std-65-Medium.otf");
-}
-
-@font-face {
-    font-family: "AvenirHeavy";
-    src: url("./../assets/fonts/heavy/Avenir-LT-Std-85-Heavy.otf")
-}
-
 .bread-card {
-    margin-top: 2rem;
+    margin-top: 3rem;
     background-color: #f7f6e7;
     width: 22rem;
-    height: 35rem;
+    height: 48rem;
     text-align: center;
+}
+
+.bread-card .card-picture {
+    position: relative;
+    top: 0rem;
+    height: 100%;
 }
 
 .bread-card .card-img-top {
     position: absolute;
     left: 0;
-}
-
-.bread-card .card-picture {
-    position: relative;
-    top: -5rem;
+    bottom: 0;
 }
 
 .bread-card .card-body {
-    position: absolute;
     bottom: 0em;
     left: 0;
 }
@@ -45,5 +31,13 @@
 .bread-card h5 {
     font-family: "AvenirHeavy";
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    color: var(--blue-color);
+}
+
+.red---border {
+    border: 3px solid red;
+}
+.blue---border {
+    border: 3px solid blue;
 }

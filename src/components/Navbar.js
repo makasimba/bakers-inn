@@ -7,7 +7,7 @@ import Button from './Button';
 const Navbar = () => {
     return (
 
-        <nav className="navbar navbar-expand-md navbar-light fixed-top">
+        <nav className="navbar navbar-expand-md navbar-light justify-content-between">
 
             <div className="container-fluid">
 
@@ -24,16 +24,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 
                     <ul className="navbar-nav align-items-center">
-                        <li className="nav-item active">
+                        <li className="nav-item active mx-2">
                             <a className="nav-link" href="#">About Us</a>
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item active mx-2">
                             <a className="nav-link" href="#">Products</a>
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item active mx-2">
                             <a className="nav-link" href="#">Recipes</a>
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item active mx-2">
                             <a className="nav-link" href="#">Kid's Corner</a>
                         </li>
                         <li>

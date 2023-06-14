@@ -5,10 +5,12 @@
 
 .value p {
     font-family: 'AvenirLight';
+    color: var(--blue-color);
 }
 
 .value h5 {
     font-size: 2rem;
+    color: var(--blue-color);
 }
 
 .value {
@@ -16,4 +18,8 @@
     background-color: whitesmoke;
     border: none;
     outline: none;
+}
+
+.red--border {
+    border: 3px solid red;
 }

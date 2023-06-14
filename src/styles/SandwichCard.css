@@ -11,3 +11,10 @@
     color: var(--blue-color);
     font-weight: bold;
 }
+
+.sandwich--card h5 {
+    color: var(--blue-color);
+    font-family: "AvenirHeavy";
+    font-weight: bold;
+    font-size: 1.8rem;
+}

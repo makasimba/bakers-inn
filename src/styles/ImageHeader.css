@@ -1,0 +1,19 @@
+.about--header h2 {
+    color: white;
+}
+
+.header--container {
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 2rem;
+    right: 1rem;
+}

@@ -1,0 +1,20 @@
+.notification {
+    background-color: var(--brown-color);
+}
+
+.form-control {
+    background-color: rgb(202, 166, 82);
+    border: 2px solid rgb(202, 166, 82);
+    border-radius: 0%;
+    color: white;
+}
+
+.submit--button {
+    background-color: var(--blue-color);
+    color: white;
+    outline: 0.5rem solid rgb(202, 166, 82);
+}
+
+.bread--group {
+    height: 110%;
+}

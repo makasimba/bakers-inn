@@ -13,7 +13,7 @@ import innscorlogo from './../assets/Images/inscor_logo.png';
 const Footer = () => {
     return (
         <footer >
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row baker-logo--section">
                     <div className="col-5 white-border"></div>
                     <div className="col-2 d-flex justify-content-center image-div">
@@ -45,7 +45,7 @@ const Footer = () => {
                                 <p>1 Shepperton Road,</p>
                                 <p>Graniteside,</p>
                                 <p>Harare,</p>
-                                <p>Zimbabwe,</p>
+                                <p>Zimbabwe</p>
                             </div>    
                             <div className="col-1"></div>
                             <div className="col-4">

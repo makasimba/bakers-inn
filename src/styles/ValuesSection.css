@@ -1,0 +1,15 @@
+.values {
+    background-color: whitesmoke;
+}
+
+.values h2 {
+    text-align: center;
+}
+
+.values .col-6 {
+    padding: 2rem 4rem;
+}
+
+.red--border {
+    border: 3px red solid;
+}

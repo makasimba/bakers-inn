@@ -1,0 +1,22 @@
+
+.product-nav-buttons {
+    height: 5rem;
+    border-bottom: 0.15rem solid var(--mild-blue-color);
+}
+
+.product-nav-button {
+    color: var(--blue-color);
+}
+
+.product-nav button {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: var(--mild-blue-color);
+    border: 0;
+}
+
+.product-nav button:hover {
+    color: var(--blue-color);
+    z-index: 99;
+}

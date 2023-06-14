@@ -1,0 +1,65 @@
+.factories-section {
+    background-color: #f7f6e7;
+}
+
+.table {
+    color: #2d0170;
+}
+
+.enquiries {
+    background-color: whitesmoke;
+    color: var(--blue-color);
+}
+
+
+.email {
+    text-decoration: underline;
+}
+
+.form-section .submit--button {
+    background-color: var(--brown-color);
+    border-radius: 0;
+    border: 2px solid var(--brown-color);
+    outline: none;
+}
+
+.form-section .submit--button:hover {
+    transition: all 0.3s ease-out;
+    color: var(--brown-color);
+    background-color: transparent;
+    border: 2px solid var(--brown-color);
+    box-shadow: 0 0 3px rgba(234, 202, 126, 0.2);
+}
+
+.form-select {
+    background-color: rgb(247, 246, 231);
+    border-radius: 0;
+    border: none;
+}
+
+.form-control {
+    background-color: rgb(247, 246, 231);
+    border: 0 solid rgb(247, 246, 231);
+}
+
+form label {
+    color: rgb(124, 123, 115);
+    font-size: 1.3em;
+}
+
+.primary--highlight {
+    color: var(--blue-color);
+    font-weight: bold;
+}
+
+.factories-section {
+    color: var(--blue-color);
+}
+
+.factories-section h2 {
+    margin: 1rem 0;
+}
+
+.form-section p {
+    font-family: "AvenirLight";
+}

@@ -1,8 +1,8 @@
 import './../styles/Info.css';
 
-const Info = ({ content, color }) => {
+const Info = ({ content, color, alignment }) => {
     return (
-            <p className="infomation" style={{color: color }}>{content}</p>
+            <p className="infomation" style={{color: color, textAlign: alignment }}>{content}</p>
      );
 }
  
