@@ -2,10 +2,6 @@
     color: var(--blue-color);
 }
 
-.icon {
-    height: 80%;
-}
-
 .card {
     background-color: rgb(247, 246, 231);
 }

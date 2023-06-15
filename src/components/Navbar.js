@@ -3,18 +3,19 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import './../styles/Navbar.css';
 import logo from './../assets/Images/bakersinnlogo.png';
 import Button from './Button';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
 
-        <nav className="navbar navbar-expand-md navbar-light justify-content-between">
+        <nav className="navbar navbar-expand-lg navbar-light justify-content-between">
 
-            <div className="container-fluid">
+            <div className="container px-0">
 
                 <div>
-                    <a className="navbar-brand" href="#">
-                        <img src={logo} alt="the-bakers-inn-company-logo" className="img-fluid" width='50%'/>
-                    </a>
+                    <Link to="/" className="navbar-brand" href="#">
+                        <img src={logo} alt="" className="img-fluid" width='50%'/>
+                    </Link>
                 </div>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,19 +26,21 @@ const Navbar = () => {
 
                     <ul className="navbar-nav align-items-center">
                         <li className="nav-item active mx-2">
-                            <a className="nav-link" href="#">About Us</a>
+                            <Link to="/AboutUs" className="nav-link" href="#">About Us</Link>
                         </li>
                         <li className="nav-item active mx-2">
-                            <a className="nav-link" href="#">Products</a>
+                            <Link to="/Products" className="nav-link" href="#">Products</Link>
                         </li>
                         <li className="nav-item active mx-2">
-                            <a className="nav-link" href="#">Recipes</a>
+                            <Link to="/Recipes" className="nav-link" href="#">Recipes</Link>
                         </li>
                         <li className="nav-item active mx-2">
-                            <a className="nav-link" href="#">Kid's Corner</a>
+                            <Link to="/Kid" className="nav-link" href="#">Kid's Corner</Link>
                         </li>
                         <li>
-                            <Button color='#b6923d' content='CONTACT US'/>
+                            <Link to="/Contact">
+                                <Button color='#b6923d' content='CONTACT US'/>
+                            </Link>
                         </li>
                     </ul>
 

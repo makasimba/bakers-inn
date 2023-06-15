@@ -1,12 +1,12 @@
-import ImageHeader from './../ImageHeader';
+import ImageHeader from '../ImageHeader';
 import breadFactory from './../../assets/Images/contactusheader.png';
 import bulawayoStore from './../../assets/Images/contactstore.png';
 import harareStore from './../../assets/Images/about-us-header.png';
 import bakers from './../../assets/Images/contactpeople.png';
-import Navbar from './../Navbar';
-import Heading from './../Heading';
-import Info from './../Info';
-import Footer from './../Footer';
+import Navbar from '../Navbar';
+import Heading from '../Heading';
+import Info from '../Info';
+import Footer from '../Footer';
 import './../../styles/Contact.css';
 
 
@@ -133,13 +133,13 @@ const Contact = () => {
                 <div className="row pb-4">
                     <div className="col-6 d-flex flex-column align-items-center">
                         <div>
-                            <h4>For job enquiries, email your CV to</h4>
+                            <h5>For job enquiries, email your CV to</h5>
                             <p className="email">hr@bakersinnzim.com</p>
                         </div>
                     </div>
                     <div className="col-6 d-flex flex-column align-items-center">
                         <div>
-                            <h4>For general enquiries, email your CV to</h4>
+                            <h5>For general enquiries, email your CV to</h5>
                             <p className="email">marketing@bakersinnzim.com</p>
                         </div>
                     </div>
@@ -151,7 +151,7 @@ const Contact = () => {
                 <Heading content="Request A Callback" color="#2d0170" size="2.8rem" alignment="center" />
                 <Info content="Complete the form below and we will respond within 24 hours" color="#2d0170" alignment="center" />
                 
-                <form>
+                <form className="form--section">
                     <div className="row">
                         <div className="col-6">
                             <div className="form-floating">
@@ -169,7 +169,7 @@ const Contact = () => {
                         <div className="col-6">
                             <div className="form-floating mb-3">
                                 <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
-                                <label for="floatingInput" className="form-label" >Your Name</label>
+                                <label for="floatingInput" className="">Your Name</label>
                             </div>
                         </div>
                     </div>
@@ -178,13 +178,13 @@ const Contact = () => {
                         <div className="col">
                             <div class="form-floating">
                                 <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
-                                <label for="floatingInput" className="form-label" >Your Phone Number</label>
+                                <label for="floatingInput" className="">Your Phone Number</label>
                             </div>
                         </div>
                         <div className="col">
                             <div className="form-floating mb-3">
                                 <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
-                                <label for="floatingInput" className="form-label" >Your E-mail</label>
+                                <label for="floatingInput" className="">Your E-mail</label>
                             </div>
                         </div>
                     </div>
@@ -199,7 +199,7 @@ const Contact = () => {
                                     <option value="3">Bulawayo</option>
                                     <option value="4">Mutare</option>
                                 </select>
-                                <label for="floatingInput">Select Area of Interest</label>
+                                <label for="floatingInput" className="">Select Area of Interest</label>
                             </div>
                         </div>
                     </div>
@@ -214,14 +214,14 @@ const Contact = () => {
                                     <option value="3">Factory Tour</option>
                                     <option value="4">Hunger</option>
                                 </select>
-                                <label for="floatingInput">Nature of Enquiry</label>
+                                <label for="floatingInput" className="">Nature of Enquiry</label>
                             </div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col">
                             <div className="form-floating mb-3">
-                                <select class="form-select" id="contactMethodSelect">
+                                <select className="form-select" id="contactMethodSelect">
                                     <option selected></option>
                                     <option value="1">YES</option>
                                     <option value="2">NO</option>
@@ -233,11 +233,9 @@ const Contact = () => {
 
                     <div className="row">
                         <div className="col">
-                            <div className="p-0 text--area--row">
-                                <div className="form-floating mb-3">
-                                    <label for="exampleFormControlTextarea1" className="form-label">Your Message</label>
-                                    <textarea className="form-control h-100 p-0" id="exampleFormControlTextarea1" rows="10"></textarea>
-                                </div>
+                            <div className="form-floating mb-3">
+                                <label for="exampleFormControlTextarea1" className="form-label">Your Message</label>
+                                <textarea className="form-control h-100 p-0" id="exampleFormControlTextarea1" rows="10"></textarea>
                             </div>
                         </div>
                     </div>

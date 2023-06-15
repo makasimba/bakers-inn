@@ -11,7 +11,6 @@
     color: var(--blue-color);
 }
 
-
 .email {
     text-decoration: underline;
 }
@@ -42,9 +41,9 @@
     border: 0 solid rgb(247, 246, 231);
 }
 
-form label {
+.form--section label {
     color: rgb(124, 123, 115);
-    font-size: 1.3em;
+    font-size: 1.5em !important;
 }
 
 .primary--highlight {
@@ -62,4 +61,11 @@ form label {
 
 .form-section p {
     font-family: "AvenirLight";
+}
+
+.blue--border {
+    border: 3px solid blue;
+}
+.red--border {
+    border: 3px solid red;
 }

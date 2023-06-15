@@ -7,10 +7,12 @@ const MissionCard = ({ icon, heading, content }) => {
             <div className="card mission--card border-0" style={{maxWidth: "540px"}} >
                 <div className="row g-0">
                     <div className="col-md-4">
-                        <img src={icon} className="img-fluid icon rounded-start" alt="..."/>
+                        <div className="">
+                            <img src={icon} className="img-fluid icon rounded-start" alt="..."/>
+                        </div>
                     </div>
                     <div className="col-md-8">
-                        <div className="card-body">
+                        <div className="card-body px-0">
                             <Heading content={heading} color="#2d0170" size="2.8rem" />
                             <p className="card-text"> {content} </p>
                         </div>

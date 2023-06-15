@@ -2,17 +2,24 @@
     background-color: var(--brown-color);
 }
 
-.form-control {
-    background-color: rgb(202, 166, 82);
-    border: 2px solid rgb(202, 166, 82);
+.notification .form-control {
     border-radius: 0%;
     color: white;
+    background-color: rgb(202, 166, 83) !important;
+}
+.notification .form-control::placeholder {
+    color: white;
+    font-weight: light;
 }
 
 .submit--button {
     background-color: var(--blue-color);
     color: white;
-    outline: 0.5rem solid rgb(202, 166, 82);
+    height: 100%;
+}
+
+.email--submit {
+    background-color: rgb(202, 166, 83);
 }
 
 .bread--group {

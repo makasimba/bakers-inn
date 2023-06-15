@@ -4,7 +4,7 @@ import arrow from './../assets/Images/arrow-down.png';
 const ImageHeader = ({ image, heading }) => {
 
     return ( 
-        <div className="container about--header p-0">
+        <div className="container about--header pb-5">
             <div className="header--container">
                 <img src={image} alt="" className="img-fluid" />
                 <div className="header-text">

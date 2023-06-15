@@ -15,7 +15,7 @@ const Header = ({ children=null, heading, info, image, backgroundColor, color })
                     {children}
                 </div>
                 <div className="col-7 image-content">
-                    <img src={image} alt="image-displayed-on-header" className="img-fluid"/>
+                    <img src={image} alt="image-displayed-on-header" className="img-fluid header--image"/>
                 </div>
             </div>
         </div>

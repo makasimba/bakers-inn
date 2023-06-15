@@ -6,3 +6,8 @@
     padding-top: 5.8em;
     padding-bottom: 5.8rem;
 }
+
+.header--image {
+    height: 100%;
+    width: auto;
+}

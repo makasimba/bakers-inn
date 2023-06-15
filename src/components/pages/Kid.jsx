@@ -1,10 +1,10 @@
 import header from './../../assets/Images/kids-header.png';
-import Navbar from './../Navbar';
-import KidSection from './../KidsSection';
+import Navbar from '../Navbar';
+import KidSection from '../KidsSection';
 import maze from './../../assets/Images/maze.png';
 import cubes from './../../assets/Images/cubes.png';
 import pacman from './../../assets/Images/pacman.png';
-import Footer from './../Footer';
+import Footer from '../Footer';
 
 const Kid = () => {
     return ( 

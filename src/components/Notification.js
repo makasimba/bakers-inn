@@ -9,8 +9,10 @@ const Notification = () => {
                 <div className="col-6 d-flex flex-column justify-content-center">
                     <Heading content="Get Notified About Promotions We Offer" color="white" size="2.8rem" />
                     <div class="input-group mb-3 form--input">
-                        <input type="text" className="form-control" placeholder="your email" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                        <button className="btn submit--button my-2" type="button" id="button-addon2">SUBMIT</button>
+                        <div className="d-flex email--submit w-100 align-items-center p-2">
+                            <input type="text" className="form-control" placeholder="your email" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                            <button className="btn submit--button py-2" type="button" id="button-addon2">SUBMIT</button>
+                        </div>
                     </div>
                 </div>
                 <div className="col-6">

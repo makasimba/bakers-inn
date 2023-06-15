@@ -1,10 +1,10 @@
-import Navbar from './../Navbar';
+import Navbar from '../Navbar';
 import ImageHeader from '../ImageHeader';
-import VisionMission from './../VisionMission';
-import ValuesSection from './../ValuesSection';
-import Heading from './../Heading';
+import VisionMission from '../VisionMission';
+import ValuesSection from '../ValuesSection';
+import Heading from '../Heading';
 import PromiseSection from '../PromiseSection';
-import Footer from './../Footer';
+import Footer from '../Footer';
 import display from './../../assets/Images/about-us-header.png';
 
 const AboutUs = () => {

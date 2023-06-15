@@ -6,7 +6,7 @@ import './../styles/Unnormalized.css';
 const Unnormalized = ({ heading, imageUrl = null, text, buttonLabel, backgroundColor }) => {
     return ( 
         <>
-            <div style={{ backgroundColor: backgroundColor }} className="container py-5 view">
+            <div style={{ backgroundColor: backgroundColor }} className="container py-5 my-5 view">
                 <div className="row">
                     <div className="col-6 p-4 d-flex flex-column justify-content-center">
                         <Heading content={heading} />
