@@ -11,8 +11,8 @@ const ProductRange = () => {
         <div className="product--range py-5">
             <Heading content="Our Product Range" color="#2d0170" />
             <FoodRange />
-            <Link>
-                <Button to="/Products" content="View Complete Range" color="brown" />
+            <Link to="/Products">
+                <Button buttonLabel="View Complete Range" backgroundColor="brown" />
             </Link>
         </div>
         </>

@@ -26,3 +26,11 @@
     height: 100%;
     top: 0;
 }
+
+.hidden {
+    visibility: hidden;
+}
+
+.show {
+    visibility: show;
+}

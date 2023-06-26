@@ -1,4 +1,4 @@
-.btn {
+.general--button .btn {
     font-family: 'Avenir';
     font-size: 1rem;
     font-weight: bold;
@@ -6,9 +6,10 @@
     padding: 0.5em 2em;
     color: white;
     text-transform: uppercase;
+    border: 2px solid var(--brown-color);
 }
 
-.btn:hover {
+.general--button .btn:hover {
     transition: all 0.3s ease-out;
     color: var(--brown-color);
     border: 2px solid var(--brown-color);

@@ -1,0 +1,9 @@
+.header--welcome {
+    font-family: "Dumb";
+    font-size: 8rem;
+    line-height: 8rem;
+}
+
+.shade--blue {
+    color: var(--blue-color);
+}

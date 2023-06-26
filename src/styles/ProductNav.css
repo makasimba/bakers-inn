@@ -13,10 +13,22 @@
     font-weight: bold;
     background-color: transparent;
     color: var(--mild-blue-color);
-    border: 0;
+    border: 7px solid transparent;
 }
 
 .product-nav button:hover {
     color: var(--blue-color);
     z-index: 99;
+    border-bottom: 7px solid var(--brown-color);
+}
+
+.nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: var(--blue-color) !important;
+    border-bottom: 7px solid var(--brown-color);
+}
+
+.product-nav ul {
+    border-bottom: 2px solid var(--mild-blue-color);
+    margin: 5px 0;
 }

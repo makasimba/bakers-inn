@@ -15,8 +15,8 @@ const About = ({ heading, text, buttonLabel }) => {
 
                     <div className="col-6 p-4">
                         <Info content={text} color="#2d0170" />
-                        <Link>
-                            <Button to="/AboutUs" color={'brown'} content={buttonLabel} />
+                        <Link to="/AboutUs">
+                            <Button backgroundColor={'brown'} buttonLabel={buttonLabel} />
                         </Link>
                     </div>
 

@@ -6,7 +6,6 @@ const Recipes = () => {
     
     return ( 
         <>
-            <Heading content="Baker's Recipes" color="blue" />
             <ProductNav />
         </>
      );

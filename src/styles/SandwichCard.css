@@ -18,3 +18,29 @@
     font-weight: bold;
     font-size: 1.8rem;
 }
+
+.red--border {
+    border: 3px solid red;
+}
+
+.blue--border {
+    border: 3px solid blue;
+}
+
+.modal--close--btn {
+    border-radius: 50%;
+}
+
+.sandwich--card p {
+    font-family: 'AvenirLight';
+    max-width: 100%;
+    font-size: 0.8rem;
+    color: var(--blue-color);
+}
+
+.sandwich--card .recipe--information {
+    font-size: 1rem;
+    font-family: "AvenirHeavy";
+    font-size: 1.5rem;
+}
+

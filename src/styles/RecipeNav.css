@@ -7,23 +7,27 @@
     color: var(--blue-color);
 }
 
+.nav-link.active,
+.nav-tabs .nav-item.show .nav-link{
+    color: var(--blue-color) !important;
+    border-bottom: 7px solid var(--brown-color);
+}
+
 .recipe-nav button {
     font-size: 2rem;
     font-weight: bold;
     background-color: transparent;
-    color: var(--mild-blue-color);
-    border: 0;
+    color: rgb(150, 137, 188);
+    border: 7px solid transparent;
 }
 
 .recipe-nav button:hover {
     color: var(--blue-color);
     z-index: 99;
+    border-bottom: 7px solid var(--brown-color);
 }
 
-.red--border {
-    border: 3px solid red;
-}
-
-.blue--border {
-    border: 3px solid blue;
+.recipe-nav ul {
+    border-bottom: 2px solid var(--mild-blue-color);
+    margin: 5px 0;
 }

@@ -1,12 +1,28 @@
 .corner {
+
     background-color: var(--blue-color);
+    position: relative;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
 }
 
 .corner p {
     color: white;
 }
 
-.corner img {
-    height: 105%;
+.corner #kidscorner {
+    font-size: 6rem;
+    font-family: "Dumb";
+    font-weight:600;
+    color: whitesmoke;
+    word-spacing: -24px;
+    line-height: 6rem;
+}
+
+
+
+.red--border {
+    border: 3px solid red;
 }
 

@@ -11,16 +11,19 @@ const KidsSection = ({ heading, content, backgroundColor, image}) => {
         <>
             <div style={{ backgroundColor: backgroundColor }} className="container kids-section">
                 <div className="row">
+
                     <div className="col-6 d-flex flex-column justify-content-center">
                         <Heading content={heading} color="white" />
                         <Info content={content} color="white" />
                         <Link to="/Kid">
-                            <Button content="PLAY GAME" />
+                            <Button buttonLabel="PLAY GAME" />
                         </Link>
                     </div>
+
                     <div className="col-6">
-                        <img src={image} alt="" className="wario--image" />
+                        <img src={image} alt="" className="wario--image img-fluid" />
                     </div>
+
                 </div>
             </div>
         </>

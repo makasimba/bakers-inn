@@ -2,16 +2,18 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './../styles/Button.css';
 import React, { useState } from 'react';
 
-const Button = ({ color, content }) => {
+const Button = ({ backgroundColor, buttonLabel }) => {
     
-    if (color === 'blue') color = '#2d0170';
-    else if (color === 'brown') color = '#b6923d';
+    if (backgroundColor === 'blue') backgroundColor = '#2d0170';
+    else if (backgroundColor === 'brown') backgroundColor = '#b6923d';
 
     const [hovered, setHovered] = useState(false);
 
     return (
-        <div className="">
-            <button type='button' style={{ backgroundColor: hovered ? "transparent" : color }} className='btn btn-md btn-block' onMouseOver={() => setHovered(true)} onMouseOut={() => setHovered(false)}>{content} </button>
+        <div className="general--button">
+
+            <button type='button' style={{ borderWidth: "2px", borderColor: backgroundColor, backgroundColor: hovered ? "transparent" : backgroundColor }} className='btn btn-md btn-block' onMouseOver={() => setHovered(true)} onMouseOut={() => setHovered(false)}>{buttonLabel}</button>
+
         </div>
      );
 }
