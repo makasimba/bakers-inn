@@ -1,5 +1,4 @@
 import SandwichCard from './SandwichCard';
-import Modal from './TourModal';
 import './../styles/Carousel.css';
 import sandwich from './../assets/Images/sandwich.png';
 import BreadCard from './../components/BreadCard';

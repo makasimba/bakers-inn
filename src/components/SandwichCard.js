@@ -8,7 +8,7 @@ import smallersandwich from './../assets/Images/shwarma.png';
 
 const SandwichCard = ({ title, prepTime, serves, picture }) => {
     return (
-        <div className="card sandwich--card shadow-md">
+        <div className="card sandwich--card shadow-md h-100">
 
             <div className="card-picture">
                 <img src={picture} className="card-img-top " alt=""/>

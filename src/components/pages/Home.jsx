@@ -9,7 +9,7 @@ import Food from '../Food';
 import About from '../About';
 import ProductRange from '../ProductRange';
 import Corner from '../Corner';
-import Recipes from '../RecipeNav';
+import RecipeNav from '../RecipeNav';
 import Notification from '../Notification';
 import Footer from '../Footer';
 import Heading from './../Heading';
@@ -45,7 +45,7 @@ const Home = () => {
 
             <Corner/>
 
-            <Recipes/>
+            <RecipeNav/>
 
             <Notification/>
 

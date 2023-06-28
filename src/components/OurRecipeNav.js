@@ -9,8 +9,7 @@ const RecipeNav = ( { heading }) => {
             <div className="row mt-5">
                 <Heading content={heading} color="#2d0170" alignment="center" />
             </div>
-                
-            
+
             <ul class="nav justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">For Kids</button>
@@ -38,6 +37,8 @@ const RecipeNav = ( { heading }) => {
                 </div>
 
             </div>
+            
+
         </div>
      );
 }

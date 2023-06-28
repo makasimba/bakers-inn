@@ -1,0 +1,10 @@
+#ceo--title {
+    font-size: 2rem;
+    color: #2d0170;
+    font-weight: bold;
+    font-family: "AvenirHeavy";
+}
+
+.ceo--signature {
+    border-bottom: 2px solid #e9e4f6;
+}

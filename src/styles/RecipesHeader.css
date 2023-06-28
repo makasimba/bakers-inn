@@ -12,13 +12,16 @@
     position: relative;
 }
 
+.food-img {
+    position: relative;
+}
+
 .overlay {
     background-color: rgba(137, 133, 133, 0.8);
     position: absolute;
     top: 0;
-    left: 0.20rem;
-    height: 98%;
-    width: 98%;
+    height: 100%;
+    width: 100%;
 }
 
 .gif {

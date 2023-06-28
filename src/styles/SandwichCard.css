@@ -38,6 +38,10 @@
     color: var(--blue-color);
 }
 
+.sandwich--card .card-title {
+    font-size: 2rem;
+}
+
 .sandwich--card .recipe--information {
     font-size: 1rem;
     font-family: "AvenirHeavy";

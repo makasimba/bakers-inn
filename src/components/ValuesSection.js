@@ -10,23 +10,23 @@ import './../styles/ValuesSection.css';
 const ValuesSection = () => {
     return ( 
         <div className="container values">
-            <div className="row">
-                <div className="col-4">
+            <div className="row ge-5">
+                <div className="col-md-4 col-sm-12">
                     <ValueCard heading="Team Work" info="We build self-esteem by treating each other fairly, communicating directly and respectfully. We have empathy, discipline and build on our diversity as a source of strength, creativity and innovation." picture={work} />
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 col-sm-12">
                     <ValueCard heading="Respect" info="We build self-esteem by treating each other fairly, communicating directly and respectfully. We have empathy, discipline and build on our diversity as a source of strength, creativity and innovation." picture={respect} />
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 col-sm-12">
                     <ValueCard heading="Integrity" info="We build self-esteem by treating each other fairly, communicating directly and respectfully. We have empathy, discipline and build on our diversity as a source of strength, creativity and innovation." picture={integrity} />
                 </div>
             </div>
-            <div className="row">
+            <div className="row g-5">
                 <div className="col-2"></div>
-                <div className="col-4">
+                <div className="col-md-4 col-sm-12">
                     <ValueCard heading="Commitment" info="We build self-esteem by treating each other fairly, communicating directly and respectfully. We have empathy, discipline and build on our diversity as a source of strength, creativity and innovation." picture={commitment} />
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 col-sm-12">
                     <ValueCard heading="Excellence" info="We build self-esteem by treating each other fairly, communicating directly and respectfully. We have empathy, discipline and build on our diversity as a source of strength, creativity and innovation." picture={excellence} />
                 </div>
                 <div className="col-2"></div>

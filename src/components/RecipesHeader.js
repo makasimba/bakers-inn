@@ -33,7 +33,7 @@ return (() => { clearInterval(interval)})
 
     return ( 
         <>
-            <div className="container recipes-header overflow-hidden">
+            <div className="container pt-3 recipes-header overflow-hidden">
                 <div className="row">
 
                     <div className="col-6 d-flex flex-column justify-content-center">
@@ -54,8 +54,8 @@ return (() => { clearInterval(interval)})
                             <div className="col-6 animation p-1">
                                 <div className="food-img" >
                                     <img src={bun} className="img-fluid"  alt="" />
+                                    <div  className={`overlay ${viz === 1 ? "hidden" : "show"}`}></div>
                                 </div>
-                                <div  className={`overlay ${viz === 1 ? "hidden" : "show"}`}></div>
                                 <div  className="gif d-flex align-items-center">
                                     <img src={gif} alt="" className={`img-fluid ${viz === 1? "show" : "hidden" }`} />
                                 </div>
@@ -64,8 +64,8 @@ return (() => { clearInterval(interval)})
                             <div className="col-6 animation p-1">
                                 <div className="food-img" >
                                     <img src={plate} className="img-fluid"  alt="" />
+                                    <div  className={`overlay ${viz === 2 ? "hidden" : "show"}`}></div>
                                 </div>
-                                <div  className={`overlay ${viz === 2 ? "hidden" : "show"}`}></div>
                                 <div  className="gif d-flex align-items-center">
                                     <img src={gif} alt="" className={`img-fluid ${viz === 2 ? "show" : "hidden" }`} />
                                 </div>
@@ -76,8 +76,8 @@ return (() => { clearInterval(interval)})
                             <div className="col-6 animation p-1">
                                 <div className="food-img" >
                                     <img src={bunslices} className="img-fluid"  alt="" />
+                                    <div  className={`overlay ${viz === 3 ? "hidden" : "show"}`}></div>
                                 </div>
-                                <div  className={`overlay ${viz === 3 ? "hidden" : "show"}`}></div>
                                 <div  className="gif d-flex align-items-center">
                                     <img src={gif} alt="" className={`img-fluid ${viz === 3 ? "show" : "hidden" }`} />
                                 </div>
@@ -86,8 +86,8 @@ return (() => { clearInterval(interval)})
                             <div className="col-6 animation p-1">
                                 <div className="food-img" >
                                     <img src={donuts} className="img-fluid"  alt="" />
+                                    <div  className={`overlay ${viz === 4 ? "hidden" : "show"}`}></div>
                                 </div>
-                                <div  className={`overlay ${viz === 4 ? "hidden" : "show"}`}></div>
                                 <div  className="gif d-flex align-items-center">
                                     <img  src={gif} alt="" className={`img-fluid ${viz === 4 ? "show" : "hidden" }`} />
                                 </div>

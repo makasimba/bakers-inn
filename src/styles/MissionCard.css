@@ -1,5 +1,10 @@
 .mission--card p {
     color: var(--blue-color);
+    margin-bottom: 1em;
+}
+
+.mission--card h2 {
+    margin-bottom: 0em  !important;
 }
 
 .card {

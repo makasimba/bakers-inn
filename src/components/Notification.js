@@ -6,7 +6,7 @@ const Notification = () => {
     return ( 
         <div className="container notification my-5">
             <div className="row">
-                <div className="col-6 d-flex flex-column justify-content-center">
+                <div className="col-md-6 d-flex flex-column justify-content-center">
                     <Heading content="Get Notified About Promotions We Offer" color="white" size="2.8rem" />
                     <div class="input-group mb-3 form--input">
                         <div className="d-flex email--submit w-100 align-items-center p-2">
@@ -15,7 +15,7 @@ const Notification = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-6">
+                <div className="col-md-6">
                     <img src={bread} alt="brown-blue-and-green-bread" className="img-fluid bread--group" />
                 </div>
             </div>

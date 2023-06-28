@@ -1,5 +1,5 @@
 import Navbar from '../Navbar';
-import RecipeNav from '../RecipeNav';
+import OurRecipeNav from '../OurRecipeNav';
 import RecipesHeader from '../RecipesHeader';
 import Group from '../Group';
 import Footer from '../Footer';
@@ -10,8 +10,7 @@ const Recipes = () => {
         <>
             <Navbar />
             <RecipesHeader />
-            <RecipeNav />
-            <Group type="sandwich" />
+            <OurRecipeNav heading="Our Recipes"/>
             <Footer />
         </>
      );
