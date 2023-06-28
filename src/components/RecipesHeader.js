@@ -10,12 +10,13 @@ import { useState, useEffect, useRef } from 'react';
 
 const RecipesHeader = () => {
 
-let curr = useRef(1)
+let curr = useRef(1);
 const [viz, setViz] = useState(curr.current);
 
 useEffect( () => {
  const interval = setInterval(() => {
     setViz(old=>{
+
         if (old >= 4){ 
             old = 1;
         }else{
@@ -25,6 +26,7 @@ useEffect( () => {
 
     })
     }, 5_000);
+
 return (() => { clearInterval(interval)})
 })
     

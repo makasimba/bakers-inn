@@ -20,17 +20,19 @@ const RecipeNav = () => {
             </ul>
 
             <div class="tab-content" id="myTabContent">
-                
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <Group type="sandwich"/>
-                </div>
 
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                    <Group type="sandwich"/>
-                </div>
+                <div className="">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <Group type="sandwich"/>
+                    </div>
 
-                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                    <Group type="sandwich"/>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <Group type="sandwich"/>
+                    </div>
+
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <Group type="sandwich"/>
+                    </div>
                 </div>
 
             </div>

@@ -33,8 +33,8 @@ const Home = () => {
                 </Link>
             </Header>
 
-            <About heading="About Baker's Inn" text="It all started back in the eighties when Baker's Inn was just a small confectionary company that employed just 40 people and produced around 30 000 loaves of bread
-a day. We now aim to provide nourishing, convenient, and accessible answer to hunger's call." buttonLabel="READ MORE"/>
+            <About heading="About Baker's Inn" text="It all started back in the eighties when Baker's Inn was just a small confectionary company that employed just 40 people and produced around 30 000 loaves of bread a day. We now aim to provide nourishing, convenient, and accessible answer to hunger's call." buttonLabel="READ MORE"/>
+            
             <Food />
 
             <ProductRange/>
@@ -44,8 +44,6 @@ a day. We now aim to provide nourishing, convenient, and accessible answer to hu
             <Normalized heading="Request A Donation" backgroundColor="whitesmoke" imageUrl={bakers} text="If you are holding an event that you wish to have us donate to, we're more than glad to help. Fill in the donation request form for us to best understand how we can increase your event's impact in the local community." buttonLabel="Request Donation"/>
 
             <Corner/>
-
-            <Heading content="Baker's Recipes" color="#2d0170" alignment="center" />
 
             <Recipes/>
 

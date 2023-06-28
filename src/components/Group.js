@@ -47,13 +47,13 @@ const Group = ({ type="sandwich" }) => {
             <>
                 <div className="container">
                     <div className="row">
-                        <div className="p-3 col-4">
+                        <div className="p-3 col">
                             <SandwichCard title="Shwarma Sandwich" prepTime="20 min" serves="6 people" picture={sandwich}/>
                         </div>
-                        <div className="p-3 col-4">
+                        <div className="p-3 col">
                             <SandwichCard title="Shrimp Sandwich" prepTime="20 min" serves="6 people" picture={sandwich}/>
                         </div>
-                        <div className="p-3 col-4">
+                        <div className="p-3 col">
                             <SandwichCard title="Shell Fish Sandwich" prepTime="20 min" serves="6 people" picture={sandwich}/>
                         </div>
                     </div>

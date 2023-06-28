@@ -10,7 +10,7 @@ const Unnormalized = ({ heading, imageUrl = null, text, buttonLabel, backgroundC
         <>
             <div style={{ backgroundColor: backgroundColor }} className="container py-5 my-5 view">
                 <div className="row">
-                    <div className="col-6 p-4 d-flex flex-column justify-content-center">
+                    <div className="col-md-6 order-last p-4 d-flex flex-column justify-content-center">
                         <Heading content={heading}/>
                         <Info content={text}/>
 
@@ -146,7 +146,7 @@ const Unnormalized = ({ heading, imageUrl = null, text, buttonLabel, backgroundC
 
 
                     </div>
-                    <div className="col-6 p-4">
+                    <div className="col-md-6 order-first p-4 d-flex align-items-center">
                         <img src={imageUrl} alt="" className="img-fluid"/>
                     </div>
 

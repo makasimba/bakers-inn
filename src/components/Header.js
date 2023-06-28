@@ -9,13 +9,15 @@ const Header = ({ children=null, heading, info, image, backgroundColor, color })
     return ( 
         <div style={styles} className="header container">
             <div className="row">
-                <div className="col-5 info-content">
+
+                <div className="col-lg-5 info-content">
                     <h1 style={{color: color}}>{heading}</h1>
                     <p style={{color: color}}>{info}</p>
                     {children}
                 </div>
-                <div className="col-7 image-content">
-                    <img src={image} alt="image-displayed-on-header" className="img-fluid header--image"/>
+
+                <div className="col-lg-7 d-md-none d-lg-block image-content"> 
+                    <img src={image} alt="image-displayed-on-header" className="img-fluid header--image d-sm-none"/>
                 </div>
             </div>
         </div>

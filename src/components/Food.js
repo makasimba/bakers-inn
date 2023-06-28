@@ -7,18 +7,18 @@ import './../styles/Food.css';
 
 const Food = () => {
     return ( 
-        <div className="container food py-5">
+        <div className="container food pt-2 my-2">
             <div className="row row-eq-height">
-                <div className="col-3 p-3">
+                <div className="col-md-3 p-3">
                     <img src={sandwich} alt="" className="img-fluid"/>
                 </div>
-                <div className="col-3 p-3">
+                <div className="col-md-3 p-3">
                     <img src={pie} alt="" className="img-fluid"/>
                 </div>
-                <div className="col-3 p-3">
+                <div className="col-md-3 p-3">
                     <img src={donut} alt="" className="img-fluid"/>
                 </div>
-                <div className="col-3 p-3">
+                <div className="col-md-3 p-3">
                     <img src={slices} alt="" className="img-fluid"/>
                 </div>
             </div>

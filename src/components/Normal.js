@@ -11,10 +11,10 @@ const Normal = ({ heading, imageUrl = null, text, buttonLabel, backgroundColor }
         <>
             <div style={{ backgroundColor: backgroundColor }} className="container view py-5">
                 <div className="row">
-                    <div className="col-6 p-4">
+                    <div className="col-md-6 p-4 d-flex align-items-center">
                         <img src={imageUrl} alt="" className="img-fluid"/>
                     </div>
-                    <div className="col-6 p-4 d-flex flex-column justify-content-center">
+                    <div className="col-md-6 p-4 d-flex flex-column justify-content-center">
                         <Heading content={heading} />
                         <Info content={text} />
                         

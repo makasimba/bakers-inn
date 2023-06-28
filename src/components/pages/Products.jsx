@@ -9,10 +9,10 @@ const Products = () => {
     return ( 
         <>
             <Navbar/>
-            <ImageHeader image={banner} heading="Products" />
-            <Heading content="Our Products" color="#2d0170" size="3rem" alignment="center" />
-            <ProductNav />
-            <Footer />
+            <ImageHeader image={banner} heading="Products"/>
+            <Heading content="Our Products" color="#2d0170" size="3rem" alignment="center"/>
+            <ProductNav/>
+            <Footer/>
         </>
      );
 }

@@ -12,7 +12,7 @@ const Button = ({ backgroundColor, buttonLabel }) => {
     return (
         <div className="general--button">
 
-            <button type='button' style={{ borderWidth: "2px", borderColor: backgroundColor, backgroundColor: hovered ? "transparent" : backgroundColor }} className='btn btn-md btn-block' onMouseOver={() => setHovered(true)} onMouseOut={() => setHovered(false)}>{buttonLabel}</button>
+            <button type='button' style={{ borderWidth: "2px", borderColor: backgroundColor, backgroundColor: hovered ? "transparent" : backgroundColor }} className='btn btn-md btn-block mb-3' onMouseOver={() => setHovered(true)} onMouseOut={() => setHovered(false)}>{buttonLabel}</button>
 
         </div>
      );
