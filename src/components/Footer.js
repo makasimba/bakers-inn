@@ -40,8 +40,8 @@ const Footer = () => {
                     </div>
                     
                     <div className="col-md-7">
-                        <div className="row d-flex">
-                            <div className="col-3">
+                        <div className="row my-1 d-flex g-3">
+                            <div className="col">
                                 <h3>Our Location</h3>
                                 <p>1 Shepperton Road,</p>
                                 <p>Graniteside,</p>
@@ -49,14 +49,14 @@ const Footer = () => {
                                 <p>Zimbabwe</p>
                             </div>    
                             <div className="col-1"></div>
-                            <div className="col-4">
+                            <div className="col">
                                 <h3>Get In Touch With Us</h3>
                                 <p>08080151</p>
                                 <p>08080152</p>
                                 <p className="marketing">marketing@bakersinnzim.com</p>
                             </div> 
                             <div className="col-1"></div>
-                            <div className="col-3">
+                            <div className="col">
                                 <h3>Sitemap</h3>
                                 <p>Home</p>
                                 <p>About Us</p>

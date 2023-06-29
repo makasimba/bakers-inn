@@ -9,7 +9,7 @@ const FoodRange = () => {
     return ( 
         <div className="container food">
             <div className="row ">
-                <div className="col-md-3 col-sm-6 p-3 food--range">
+                <div className="col-md-3 col-sm-6 p-3 food--range text-center">
                     <img src={sandwich} alt="" className="img-fluid"/>
 
                     <div className="overlay--content">
@@ -17,21 +17,21 @@ const FoodRange = () => {
                     </div>
                     
                 </div>
-                <div className="col-md-3 col-sm-6 p-3 food--range">
+                <div className="col-md-3 col-sm-6 p-3 food--range text-center">
                     <img src={pie} alt="" className="img-fluid"/>
                     <div className="overlay--content">
                         <p>Meat Pies</p>
                     </div>
                     
                 </div>
-                <div className="col-md-3 col-sm-6 p-3 food--range">
+                <div className="col-md-3 col-sm-6 p-3 food--range text-center">
                     <img src={donut} alt="" className="img-fluid"/>
                     <div className="overlay--content">
                         <p>Scones</p>
                     </div>
                     
                 </div>
-                <div className="col-md-3 col-sm-6 p-3 food--range">
+                <div className="col-md-3 col-sm-6 p-3 food--range text-center">
                     <img src={slices} alt="" className="img-fluid"/>
                     <div className="overlay--content">
                         <p>Donuts</p>

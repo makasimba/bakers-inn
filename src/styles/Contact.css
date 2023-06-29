@@ -11,6 +11,10 @@
     color: var(--blue-color);
 }
 
+.enquiries h5 {
+    font-size: 1rem!important;
+}
+
 .email {
     text-decoration: underline;
 }

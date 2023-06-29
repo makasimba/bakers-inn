@@ -19,7 +19,7 @@ const Contact = () => {
 
             <div className="container factories-section my-5 py-5">
                 <div className="row">
-                    <div className="col-6 px-5">
+                    <div className="col-md-6 px-5">
                         <div>
                             <img src={bulawayoStore} alt="" className="img-fluid" />
                         </div>
@@ -29,7 +29,7 @@ const Contact = () => {
                         <p><span className="primary--highlight">Econet Toll Free: </span>08080151, 08080152</p>
                     </div>
 
-                    <div className="col-6 px-5">
+                    <div className="col-md-6 px-5">
                         <div>
                             <img src={harareStore} alt="" className="img-fluid" />
                         </div>
@@ -131,18 +131,21 @@ const Contact = () => {
                     <img src={bakers} alt="" className="img-fluid" />
                 </div>
                 <div className="row pb-4">
-                    <div className="col-6 d-flex flex-column align-items-center">
+
+                    <div className="col-md-6 d-flex flex-column align-items-center">
                         <div>
                             <h5>For job enquiries, email your CV to</h5>
                             <p className="email">hr@bakersinnzim.com</p>
                         </div>
                     </div>
-                    <div className="col-6 d-flex flex-column align-items-center">
+
+                    <div className="col-md-6 d-flex flex-column align-items-center">
                         <div>
                             <h5>For general enquiries, email your CV to</h5>
                             <p className="email">marketing@bakersinnzim.com</p>
                         </div>
                     </div>
+
                 </div>
             </div>
 
@@ -153,8 +156,8 @@ const Contact = () => {
                 
                 <form className="form--section">
                     <div className="row">
-                        <div className="col-6">
-                            <div className="form-floating">
+                        <div className="col-md-6">
+                            <div className="form-floating mb-3">
                                 <select className="form-select" id="titleSelect">
                                     <option selected></option>
                                     <option value="1">Mr</option>
@@ -166,7 +169,7 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="col-6">
+                        <div className="col-md-6">
                             <div className="form-floating mb-3">
                                 <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
                                 <label for="floatingInput" className="">Your Name</label>
@@ -176,7 +179,7 @@ const Contact = () => {
 
                     <div className="row">
                         <div className="col">
-                            <div class="form-floating">
+                            <div class="form-floating mb-3">
                                 <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
                                 <label for="floatingInput" className="">Your Phone Number</label>
                             </div>

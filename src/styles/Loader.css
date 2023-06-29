@@ -1,0 +1,13 @@
+.loader {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.red--border {
+    border: 3px solid red;
+}
+
+.blue--border {
+    border: 3px solid blue;
+}

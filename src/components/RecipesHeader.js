@@ -36,7 +36,7 @@ return (() => { clearInterval(interval)})
             <div className="container pt-3 recipes-header overflow-hidden">
                 <div className="row">
 
-                    <div className="col-6 d-flex flex-column justify-content-center">
+                    <div className="col-md-6 d-flex flex-column justify-content-center">
 
                         <Heading content="The Finest Of Baker's Inn Tik Tok Community Recipes." color="#2d0170" />
 
@@ -48,7 +48,7 @@ return (() => { clearInterval(interval)})
                         
                     </div>
 
-                    <div className="col-6">
+                    <div className="col-md-6">
 
                         <div className="row g-1">
                             <div className="col-6 animation p-1">

@@ -7,7 +7,9 @@ const Notification = () => {
         <div className="container notification my-5">
             <div className="row">
                 <div className="col-md-6 d-flex flex-column justify-content-center">
-                    <Heading content="Get Notified About Promotions We Offer" color="white" size="2.8rem" />
+                    <div className="row mt-3">
+                        <Heading content="Get Notified About Promotions We Offer" color="white" size="2.8rem" />
+                    </div>
                     <div class="input-group mb-3 form--input">
                         <div className="d-flex email--submit w-100 align-items-center p-2">
                             <input type="text" className="form-control" placeholder="your email" aria-label="Recipient's username" aria-describedby="button-addon2"/>
