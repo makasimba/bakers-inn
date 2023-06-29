@@ -12,8 +12,6 @@ import Corner from '../Corner';
 import RecipeNav from '../RecipeNav';
 import Notification from '../Notification';
 import Footer from '../Footer';
-import Heading from './../Heading';
-import TourModal from '../TourModal';
 
 import differentbread from './../../assets/Images/groupheaderbread.png';
 import bread from './../../assets/Images/contactusheader.png';

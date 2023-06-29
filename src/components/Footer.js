@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="container mt-5">
 
                 <div className="row baker-logo--section d-flex justify-content-center">
-                    <div className="col-sm-2 image-div p-0">
+                    <div className="col-sm-2 logo--image--div p-0">
                         <img src={logo} alt="" className="img-fluid logo--image"/>
                     </div>
                 </div>

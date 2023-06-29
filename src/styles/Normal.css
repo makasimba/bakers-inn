@@ -32,3 +32,12 @@
     border: 2px solid var(--brown-color) !important;
     box-shadow: 0 0 2px rgb(182, 146, 61, 0.2);
 }
+
+.donation--modal--subheading {
+    width: 100%;
+}
+
+.modal--drop {
+    background-color: #987bc3;
+    border-radius: 50%;
+}

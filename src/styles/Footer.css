@@ -32,3 +32,8 @@ footer span {
 .social-media--section {
     border-bottom: 2px solid white;
 }
+
+.logo--image--div {
+    height: 30%;
+    width: auto;
+}

@@ -1,8 +1,6 @@
-import Button from './Button';
 import Heading from './Heading';
 import Info from './Info';
 import './../styles/Unnormalized.css';
-import React, { useState } from 'react';
 
 const Unnormalized = ({ heading, imageUrl = null, text, buttonLabel, backgroundColor }) => {
 
@@ -19,10 +17,11 @@ const Unnormalized = ({ heading, imageUrl = null, text, buttonLabel, backgroundC
                         <div className="modal modal-xl fade" id="tourModal" tabindex="-1" aria-labelledby="tourModalLabel" aria-hidden="true">
                             <div className="modal-dialog">
                                 <div className="modal-content">
-                                    <div className="modal-header d-flex">
-                                        <h5 className="modal-title text-center" id="tourModalLabel">BOOK A FACTORY TOUR</h5>
+                                    <div className="modal-header text-center">
+                                        <h5 className="modal-title w-100" id="tourModalLabel">BOOK A FACTORY TOUR</h5>
                                         <button type="button" className="btn-close mx-0" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
+                                    
                                     <div className="modal-body">
 
                                         <form action="">

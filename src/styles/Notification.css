@@ -25,3 +25,8 @@
 .bread--group {
     height: 110%;
 }
+
+.three--loaves img {
+    height: 100%;
+    width: auto;
+}

@@ -10,8 +10,8 @@ const Corner = () => {
       <div className="container corner">
             <div className="row">
 
-                <div className="col-lg-6 d-none d-lg-block d-flex align-items-center">
-                    <img src={wario} alt="" className="img-fluid"/>
+                <div className="col-lg-6 d-none d-lg-block d-flex mario--image">
+                    <img src={wario} alt="" className="img-fluid responsive"/>
                 </div>
 
                 <div className="col-lg-6 text-center d-flex flex-column align-items-center justify-content-center">

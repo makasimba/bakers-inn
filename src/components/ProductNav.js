@@ -1,6 +1,4 @@
-import Carousel from './Carousel';
 import './../styles/ProductNav.css';
-import Heading from './Heading';
 import Group from './Group';
 
 const ProductNav = () => {
@@ -25,20 +23,25 @@ const ProductNav = () => {
                     <button class="nav-link" id="donut-tab" data-bs-toggle="tab" data-bs-target="#donut" type="button" role="tab" aria-controls="donut" aria-selected="false">Donuts</button>
                 </li>
             </ul>
+
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="bread" role="tabpanel" aria-labelledby="bread-tab">
                     <Group type="bread" />
                 </div>
+
                 <div class="tab-pane fade" id="meat" role="tabpanel" aria-labelledby="meat-tab">
                     <Group type="bread" />
                 </div>
+
                 <div class="tab-pane fade" id="scones" role="tabpanel" aria-labelledby="scones-tab">
                     <Group type="bread" />
                 </div>
+
                 <div class="tab-pane fade" id="donut" role="tabpanel" aria-labelledby="donut-tab">
                     <Group type="bread" />
                 </div>
             </div>
+
         </div>
      );
 }

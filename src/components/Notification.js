@@ -17,7 +17,7 @@ const Notification = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 three--loaves">
                     <img src={bread} alt="brown-blue-and-green-bread" className="img-fluid bread--group" />
                 </div>
             </div>

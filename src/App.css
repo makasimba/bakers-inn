@@ -28,3 +28,11 @@
     font-family: "2Dumb";
     src: url("./assets/fonts/3dumb/2Dumb.ttf");
 }
+
+.red--border {
+    border: 3px solid red;
+}
+
+.blue--border {
+    border: 3px solid blue;
+}
