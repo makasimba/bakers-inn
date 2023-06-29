@@ -16,22 +16,22 @@ const Group = ({ type="sandwich" }) => {
             <div className="container">
                 <div className="row">
                     <div className="inner--row d-flex px-0">
-                        <div className="col-md-7">
+                        <div className="col-xs-12 col-md-5">
                             <BreadCard title="Premium Soft White Loaf" picture={bluebread}>
                                 <Info content="Our Premium Soft White loaves are delightfully soft, fresh and delicious. They are loaded with energy and fortified with vitamins and minerals for the classic everyday bread. The Standard Loaf as 18 slices" color="#2d0170"/>
                             </BreadCard>
                         </div>
-                        <div className="col-md-7">
+                        <div className="col-xs-12 col-md-5">
                             <BreadCard title="Family Loaf High Energy Brown" picture={yellowbread}>
                                 <Info content="Our family Loaf High Energy Brown loaves are great source of fibre, high in energy and fortified with vitamins and minerals! They are perfect for sandwiches, toast, breadcrumbs - anything! The Family Loaf has 21 slices." color="#2d0170"/>
                             </BreadCard>
                         </div>
-                        <div className="col-md-7">
+                        <div className="col-xs-12 col-md-5">
                             <BreadCard title="Family Loaf Soft White Loaf" picture={redbread}>
                                 <Info content="Our Premium Soft White loaves are delightfully soft, fresh and delicious. They are loaded with energy and fortified with vitamins and minerals for the classic everyday bread. The Standard Loaf as 21 slices" color="#2d0170"/>
                             </BreadCard>
                         </div>
-                        <div className="col-md-7">
+                        <div className="col-xs-12 col-md-5">
                             <BreadCard title="Family Loaf Soft White Loaf" picture={redbread}>
                                 <Info content="Our Premium Soft White loaves are delightfully soft, fresh and delicious. They are loaded with energy and fortified with vitamins and minerals for the classic everyday bread. The Standard Loaf as 21 slices" color="#2d0170"/>
                             </BreadCard>
