@@ -24,7 +24,7 @@ const ProductNav = () => {
                 </li>
             </ul>
 
-            <div class="tab-content" id="myTabContent">
+            <div class="tab-content overflow-y-scrollable" id="myTabContent">
                 <div class="tab-pane fade show active" id="bread" role="tabpanel" aria-labelledby="bread-tab">
                     <Group type="bread" />
                 </div>

@@ -6,7 +6,7 @@ const BreadCard = ({ children, title, picture }) => {
     const subheading = title.split(" ").slice(-2, ).join(" ");
 
     return (
-        <div className="card bread-card shadow-lg">
+        <div className="card bread-card w-100 me-5 shadow-lg">
 
             <div className="card-picture">
                 <img src={picture} className="card-img-top img-fluid" alt=""/>
