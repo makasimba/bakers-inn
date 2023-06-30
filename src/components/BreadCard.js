@@ -1,5 +1,6 @@
 import './../styles/BreadCard.css';
 
+// comment
 const BreadCard = ({ children, title, picture }) => {
 
     const heading = title.split(" ").slice(0, -2).join(" ");
